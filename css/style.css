@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%)
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    letter-spacing: 4px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+p {
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+.text {
+    opacity: 0.5;
+    line-height: 1.5;
+}
+
+.container {
+    width: 650px;
+    height: 480px;
+    border-radius: 3%;
+    display: flex;
+    background-color: #ffff;
+}
+
+.img-box {
+    width: 50%;
+    overflow: hidden;
+}
+
+.img-box img {
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+.content-box {
+    width: 50%;
+}
+
+.content {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.price {
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: #1F8A70;
+}
+
+.prev-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.btn {
+    background: #1F8A70;
+    background-image: -webkit-linear-gradient(top, #1F8A70, #1F8A70);
+    background-image: -moz-linear-gradient(top, #1F8A70, #1F8A70);
+    background-image: -ms-linear-gradient(top, #1F8A70, #1F8A70);
+    background-image: -o-linear-gradient(top, #1F8A70, #1F8A70);
+    background-image: linear-gradient(to bottom, #1F8A70, #1F8A70);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 60px 20px 60px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #125443;
+    background-image: -webkit-linear-gradient(top, #125443, #125443);
+    background-image: -moz-linear-gradient(top, #125443, #125443);
+    background-image: -ms-linear-gradient(top, #125443, #125443);
+    background-image: -o-linear-gradient(top, #125443, #125443);
+    background-image: linear-gradient(to bottom, #125443, #125443);
+    text-decoration: none;
+  }
+
+  .btn {
+    display: flex;
+    gap: 10px;
+  }
